@@ -1,0 +1,115 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: #000;
+  color: #f3eb16;
+}
+
+h1 {}
+
+h3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#score {
+  margin-right: 14em;
+}
+
+#arrow {
+  box-shadow: 1px 1px 2px black, 0 0 25px #0c3ae9, 0 0 5px #0c3ae9;
+}
+
+.container {
+  width: 31%;
+  margin: 0 auto;
+}
+
+.header {
+  width: 27%;
+  margin: 0 auto;
+}
+
+/* s */
+.grid {
+  width: 533px;
+  height: 533px;
+  border: solid #baed23;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  background: #223811;
+  box-shadow: 1px 1px 2px black, 0 0 25px #0c3ae9, 0 0 5px #0c3ae9;
+}
+
+.grid div {
+  width: 19px;
+  height: 19px;
+  /* background: lightgreen; */
+  /* border: solid #196b38;
+  make overlapping squares into a box
+  box-sizing: border-box; */
+}
+
+.pac-dot {
+  background: #f3eb16;
+  border: 5px solid #223811;
+  boxing-sizing: border-box;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.wall {
+  background: #000;
+}
+
+.power {
+  line-height: 1;
+  font-size: 29px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.ghost-lair {
+  background: #161616;
+}
+
+.path {
+  background: #223811;
+}
+
+.pacman {
+  background: #f3eb16;
+  border-radius: 7.5px;
+  border: none;
+}
+
+.blinky {
+  background-color: red;
+  border: none;
+}
+
+.pinky {
+  background-color: pink;
+  border: none;
+}
+
+.inky {
+  background-color: blue;
+  border: none;
+}
+
+.clyde {
+  background-color: orange;
+}
+
+.scared-ghost {
+  line-height: 1;
+  font-size: 29px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
