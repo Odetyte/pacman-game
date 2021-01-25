@@ -80,30 +80,11 @@ const createBoard = () => {
 
 createBoard()
 
-//start button function
-
-
-// up key - 38
-// left - 37
-// right - 39
-// down -40
-
 //starting position of Pacman
 
 let pacmanCurrentIndex = 490
 
 squares[pacmanCurrentIndex].classList.add('pacman')
-// squares[pacmanCurrentIndex].innerHTML = '🌕'
-
-//packam moving
-// move left: 490 - 1
-// as long as: 490 % 28 !== 0
-// move right: 490 + 1
-// as long as: 490 & 28 < 28 - 1
-// move down: 490 + 28
-// as long as: 490 + 28 < 28 * 28
-// move up: 490 - 28
-// as long as: 490 - 28 >= 0
 
 const control = (e) => {
   squares[pacmanCurrentIndex].classList.remove('pacman')
@@ -217,9 +198,6 @@ const ghosts = [
 ]
 
 //ghosts on the createGrid
-// let ghostIndex1 = 348
-// squares[ghostIndex1].classList.add('blinky')
-// squares[ghostIndex1i].innerHTML = '👻'
 
 // bb.innerHTML = '👻'
 ghosts.forEach(ghost => {
