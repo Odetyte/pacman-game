@@ -15,7 +15,8 @@ h3 {
 }
 
 #score {
-  margin-right: 14em;
+  width: 100%;
+  text-align: left;
 }
 
 #arrow {
